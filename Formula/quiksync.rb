@@ -1,28 +1,28 @@
 class Quiksync < Formula
   desc "Resilient one-way file copy and sync with FastCDC deltas"
   homepage "https://github.com/shaneburrell/quiksync"
-  version "0.5.5"
+  version "0.5.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.5/quiksync_0.5.5_darwin_arm64.tar.gz"
-      sha256 "5051a25121361835943728038f26f5fdfd44eac20ffc0f4566d2b36ad514cf7e"
+      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.6/quiksync_0.5.6_darwin_arm64.tar.gz"
+      sha256 "1954f104f505be6bc4986932d24be1831590b062a5c8ce315c2c5394f9eb094d"
     end
     on_intel do
-      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.5/quiksync_0.5.5_darwin_amd64.tar.gz"
-      sha256 "df433ec3912703d7ae190d355775c379bf43284d00dcd477c13a9f170c69d49c"
+      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.6/quiksync_0.5.6_darwin_amd64.tar.gz"
+      sha256 "56dd1dee552239281bda361048cd8f5ff8aa535ee89f2ea756030ad728e0b112"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.5/quiksync_0.5.5_linux_arm64.tar.gz"
-      sha256 "655a28d5c24c8a3d5cc5fe72c9e94551e492625273b1e0fd667fdcea983b7bc5"
+      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.6/quiksync_0.5.6_linux_arm64.tar.gz"
+      sha256 "bbb50d7b3e3ab56fc8ee56da98cc1d15b0456b8cbacffa0e577b6f14aec63254"
     end
     on_intel do
-      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.5/quiksync_0.5.5_linux_amd64.tar.gz"
-      sha256 "b5833bbb6eda4ac8988fbde7bdda3bd33ead46e9ddae86eb4146535ed7b739f4"
+      url "https://github.com/shaneburrell/quiksync/releases/download/v0.5.6/quiksync_0.5.6_linux_amd64.tar.gz"
+      sha256 "e8fe80aa24e683fc0a8603b9a14b0a6f9d4aa964b472e9f84067743d6171b351"
     end
   end
 
