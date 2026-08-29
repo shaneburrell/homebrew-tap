@@ -1,28 +1,28 @@
 class Quikagent < Formula
   desc "Minimal terminal coding agent"
   homepage "https://github.com/shaneburrell/quikagent"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.7/quikagent_0.1.7_darwin_arm64.tar.gz"
-      sha256 "7600f8dab741e8e7e7f4c4f2cb82c68904ab7fdf94484d8f6eca4ba96fbd65b6"
+      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.8/quikagent_0.1.8_darwin_arm64.tar.gz"
+      sha256 "c5edffc79df4901af8b2d563449d3dd1a6dda7e4eb2676d4f3946cb5f5320757"
     end
     on_intel do
-      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.7/quikagent_0.1.7_darwin_amd64.tar.gz"
-      sha256 "c12147d03d6c6d0ba3102f93b0dcd7085b614d06984217d020256e0f3cccc80c"
+      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.8/quikagent_0.1.8_darwin_amd64.tar.gz"
+      sha256 "6126df4b14f93ba7154aee15c00a6b3790930a7a73563af82bc3a926dae176e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.7/quikagent_0.1.7_linux_arm64.tar.gz"
-      sha256 "faeeb477a007511f49f484c4652b22150a2d09aa93f657192d657d4fe2e1d3d9"
+      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.8/quikagent_0.1.8_linux_arm64.tar.gz"
+      sha256 "3b3e59a1cbcd3d7a0e255b953140dfcdf282960fbf6a42f6028ac693359908d4"
     end
     on_intel do
-      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.7/quikagent_0.1.7_linux_amd64.tar.gz"
-      sha256 "bf4adcdb42f2ff84a94b05af55b65ddc4c20024d63161eab3e9d1f030fb980ee"
+      url "https://github.com/shaneburrell/quikagent/releases/download/v0.1.8/quikagent_0.1.8_linux_amd64.tar.gz"
+      sha256 "6da9d9b2b3643ff6f2da905b66df6caa643093eed16a3eea97a5c888928e7186"
     end
   end
 
