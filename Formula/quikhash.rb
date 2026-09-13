@@ -1,28 +1,28 @@
 class Quikhash < Formula
   desc "FastCDC + BLAKE3 content-addressed hasher with reconstruction"
   homepage "https://github.com/shaneburrell/quikhash"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.4/quikhash_0.1.4_darwin_arm64.tar.gz"
-      sha256 "fdfcb43d75431a81bc210d684d49355865b322884c59ad5857abc8a2f6b50734"
+      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.5/quikhash_0.1.5_darwin_arm64.tar.gz"
+      sha256 "b6b41d9f4cb4404f128d6835689ba4296b71f62b53bf88ffbaecd0e695f14cfb"
     end
     on_intel do
-      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.4/quikhash_0.1.4_darwin_amd64.tar.gz"
-      sha256 "7acd86368ea824082b5c6e1cabd2a1b245ea6cadb207f42d74618c4224b55213"
+      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.5/quikhash_0.1.5_darwin_amd64.tar.gz"
+      sha256 "64f49c11b66e58f7b8afd65ef1724a30f7ae71cf5e438fe17873ac185ef76d8c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.4/quikhash_0.1.4_linux_arm64.tar.gz"
-      sha256 "a821e97a32512b176facf4ce518ada0d8c45c366b237fef73756cb1685b1e849"
+      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.5/quikhash_0.1.5_linux_arm64.tar.gz"
+      sha256 "9f6c7f075e44dcaf5ca6b1ccd9c2f68d27a18c1e4141091980118d1e4a3d5609"
     end
     on_intel do
-      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.4/quikhash_0.1.4_linux_amd64.tar.gz"
-      sha256 "2b0d1209e1706c6be916cedf9e45a17be40c51ac8e52c5ff3365c5228db15b0b"
+      url "https://github.com/shaneburrell/quikhash/releases/download/v0.1.5/quikhash_0.1.5_linux_amd64.tar.gz"
+      sha256 "c292dc125531ed1d8b0e9cb8f0ebe1513770f47699c92053c62cc171e66c1fef"
     end
   end
 
