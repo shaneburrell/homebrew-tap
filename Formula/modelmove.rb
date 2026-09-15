@@ -1,28 +1,28 @@
 class Modelmove < Formula
   desc "Sparse-delta, verified transfer and migration of LLM model weights"
   homepage "https://github.com/shaneburrell/modelmove"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.8/modelmove_0.1.8_darwin_arm64.tar.gz"
-      sha256 "64455776677dc7ca11caf1f3225463c8e21b1718ee8741ebb292d3bba1e97a1c"
+      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.9/modelmove_0.1.9_darwin_arm64.tar.gz"
+      sha256 "5711e1a5a24a50ece0ce8888736cc6e152daeb910123b5ca8ec88204904657ab"
     end
     on_intel do
-      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.8/modelmove_0.1.8_darwin_amd64.tar.gz"
-      sha256 "b34fd5f759a8945bc696e136b31a3742085ed49b1cb7c49ab63b23e3286de967"
+      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.9/modelmove_0.1.9_darwin_amd64.tar.gz"
+      sha256 "92dd0b84f05c63bc6691ff6e9497bc45c535a89567a0e4da89d26abe803370e6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.8/modelmove_0.1.8_linux_arm64.tar.gz"
-      sha256 "b58eaeca0ad82732b04daa0040ce5c59c97c5bdc6840e2702f7a686007e52d53"
+      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.9/modelmove_0.1.9_linux_arm64.tar.gz"
+      sha256 "484c7f61afddc03453fd80644c6f06919826223f02f95655f42a66930942d9bf"
     end
     on_intel do
-      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.8/modelmove_0.1.8_linux_amd64.tar.gz"
-      sha256 "f79a700aee027fb17fcf0d034232edd5b90f539b94192e04ddbd131d6711e812"
+      url "https://github.com/shaneburrell/modelmove/releases/download/v0.1.9/modelmove_0.1.9_linux_amd64.tar.gz"
+      sha256 "13500663683c621ae7c04506076e42975168065d565901e3d1f08a7716008aed"
     end
   end
 
